@@ -1,0 +1,15 @@
+.Header{
+    border: 2px solid red;
+    text-align: center;
+    background: red;
+}
+.Sidebar{
+    display: block;
+    border: 2px solid red;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+}
+.Sidebar > a{
+    display: block;
+}

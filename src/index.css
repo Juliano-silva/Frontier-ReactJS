@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #1e1c24;
+}
+#Corpo{
+  border: 2px solid white;
+  margin: auto;
+  margin-left: 190px;
+  width: 90em;
+}

@@ -1,0 +1,186 @@
+.Home{
+    border: 2px solid white;
+}
+/* Login */
+.Login{
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    background-image: url(../../Arquivos/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35em;
+    height: 45em;
+    margin: auto;
+    margin-top: 3.5%;
+    opacity: 0.9;
+    text-align: center;
+}
+.Login > h1{
+    color: goldenrod;
+    text-shadow: 2px 2px 4px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 6em;
+}
+.Login > label{
+    display: block;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+    font-size: 4em;
+    margin-top: 15px;
+}
+.Login > input{
+    border: 2px solid black;
+    color: greenyellow;
+    background: goldenrod;
+    width: 80%;
+    height: 2em;
+    outline: none;
+    border-radius: 10px;
+}
+.Login > button{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 2em;
+    width: 50%;
+    border: 2px solid snow;
+    border-radius: 20px;
+    background: black;
+    color: gold;
+}
+.TelaLog{
+    overflow: auto;
+    background: #0f0f0f;
+    border: 4px solid transparent;
+    width: 40%;
+    height: 88%;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+.TelaLog::-webkit-scrollbar{
+    width: 0px;
+}
+.TelaLog > h1{
+    font-size: 5em;
+    text-align: center;
+}
+.TelaLog > h1 > span{
+    display: block;
+    font-size: 1.5em;
+    color: gold;
+}
+.TelaLog > img{
+    display: block;
+    border: 2px solid transparent;
+    width: 55%;
+    border-radius: 50%;
+    margin: auto;
+}
+.TelaLog > button{
+    display: block;
+    margin: auto;
+    border: 2px solid yellow;
+    background: gold;
+    color: black;
+    margin-top: 25px;
+    width: 50%;
+    font-size: 40px;
+    border-radius: 50px;
+}
+/* Comentário */
+.ComentárioApi{
+    border: 2px solid green;
+    background: #032230;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.ComentárioApi > h1{
+    font-size: 4em;
+    color: green;
+    text-shadow: 2px 2px 4px greenyellow;
+    animation: pipocar 5s ease-out infinite;
+}
+@keyframes pipocar {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        color: gold;
+        text-shadow: 2px 2px 4px goldenrod;
+    }
+}
+.ComentárioApi > label{
+    display: block;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px whitesmoke;
+    margin-top: 20px;
+}
+.ComentárioApi > input{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 60%;
+    background: #0f0f0f;
+    color: white;
+    height: 2em;
+}
+.ComentárioApi > button{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    color: goldenrod;
+    background: #032230;
+    border: 1px solid gray;
+    margin-top: 40px;
+    font-size: 60px;
+    width: 40%;
+}
+.ApiBox{
+    border: 2px solid snow;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.ImageApiB{
+    border: 1px solid transparent;
+    width: 99.5%;
+    height: 120vh;
+    margin: auto;
+    margin-top: 10px;
+}
+.ImageApiB::-webkit-scrollbar{width: 0;}
+.ApiBox > h1{
+    color: yellow;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -55px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 2px orange;
+    font-size: 45px;
+    overflow: auto;
+}
+.TelaLog > p{
+    display: block;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px orange;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.ApiBox > h1::-webkit-scrollbar{
+    width: 0px;
+}
+.icone{
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+/* Perfil */

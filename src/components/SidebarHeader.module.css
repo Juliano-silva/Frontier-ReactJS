@@ -1,15 +1,90 @@
 .Header{
-    border: 2px solid red;
     text-align: center;
-    background: red;
+    background: transparent;
+    height: 2.5em;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 40px;
+    animation: HeaderFont 2s  ease-out infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes HeaderFont {
+    0%{
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua;
+    }   
+    10%{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+    }
+    20%{
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+    }
+    30%{
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+    }
+    40%{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: whitesmoke;
+    }
+    50%{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: indigo;
+    }
+    60%{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: orange;
+    }
+    70%{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: cornflowerblue;
+    }
+    80%{
+        font-family: fantasy;
+        color: greenyellow;
+    }
+    90%{
+        font-family: cursive;
+        color: rgb(221, 45, 212);
+    }
+    100%{
+        font-family: sans-serif;
+        color: fuchsia;
+    }
 }
 .Sidebar{
-    display: block;
-    border: 2px solid red;
-    width: 10%;
+    top: 0;
+    background: linear-gradient(135deg , rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 8%;
     height: 100vh;
     position: absolute;
+    overflow: auto;
 }
 .Sidebar > a{
     display: block;
+    border: 2px solid transparent;
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.SideICone{
+    border: 2px solid transparent;
+    text-align: center;
+    margin-top: 20px;
+}
+.SideICone > img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.SideICone > h1{
+    color: aqua;
+    text-shadow: 2px 2px 4px aquamarine;
 }
